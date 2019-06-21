@@ -12,6 +12,4 @@ steps:
   - 'gcr.io/$PROJECT_ID/test-gcb-trigger'
   - '.'
 
-# The image has been pushed initially from a manually
-# created build: `gcloud build submit`
-# images: ['gcr.io/$PROJECT_ID/test-gcb-trigger']
+images: ['gcr.io/$PROJECT_ID/test-gcb-trigger']
